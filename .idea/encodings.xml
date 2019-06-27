@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buffer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codec" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codec-haproxy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codec-http" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codec-socks" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dev-tools" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/handler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microbench" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tarball" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testsuite" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testsuite-autobahn" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testsuite-osgi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/transport" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/transport-rxtx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/transport-sctp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/transport-udt" charset="UTF-8" />
+  </component>
+</project>

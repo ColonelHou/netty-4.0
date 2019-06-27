@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="netty-transport-sctp" />
+        <module name="netty-transport-rxtx" />
+        <module name="netty-example" />
+        <module name="netty-transport" />
+        <module name="netty-testsuite" />
+        <module name="netty-dev-tools" />
+        <module name="netty-microbench" />
+        <module name="netty-codec" />
+        <module name="netty-codec-haproxy" />
+        <module name="netty-buffer" />
+        <module name="netty-codec-http" />
+        <module name="netty-handler" />
+        <module name="netty-common" />
+        <module name="netty-codec-socks" />
+        <module name="netty-testsuite-autobahn" />
+        <module name="netty-testsuite-osgi" />
+        <module name="netty-all" />
+        <module name="netty-transport-udt" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="netty-all" target="1.6" />
+      <module name="netty-bom" target="1.5" />
+      <module name="netty-buffer" target="1.6" />
+      <module name="netty-codec" target="1.6" />
+      <module name="netty-codec-haproxy" target="1.6" />
+      <module name="netty-codec-http" target="1.6" />
+      <module name="netty-codec-socks" target="1.6" />
+      <module name="netty-common" target="1.6" />
+      <module name="netty-dev-tools" target="1.5" />
+      <module name="netty-example" target="7" />
+      <module name="netty-handler" target="1.6" />
+      <module name="netty-microbench" target="1.6" />
+      <module name="netty-parent" target="1.6" />
+      <module name="netty-tarball" target="1.6" />
+      <module name="netty-testsuite" target="1.6" />
+      <module name="netty-testsuite-autobahn" target="1.6" />
+      <module name="netty-testsuite-osgi" target="1.6" />
+      <module name="netty-transport" target="1.6" />
+      <module name="netty-transport-rxtx" target="1.6" />
+      <module name="netty-transport-sctp" target="1.6" />
+      <module name="netty-transport-udt" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="netty-all" options="-Xlint:-options" />
+      <module name="netty-buffer" options="-Xlint:-options" />
+      <module name="netty-codec" options="-Xlint:-options" />
+      <module name="netty-codec-haproxy" options="-Xlint:-options" />
+      <module name="netty-codec-http" options="-Xlint:-options" />
+      <module name="netty-codec-socks" options="-Xlint:-options" />
+      <module name="netty-common" options="-Xlint:-options" />
+      <module name="netty-example" options="-Xlint:-options" />
+      <module name="netty-handler" options="-Xlint:-options" />
+      <module name="netty-microbench" options="-Xlint:-options" />
+      <module name="netty-testsuite" options="-Xlint:-options" />
+      <module name="netty-testsuite-autobahn" options="-Xlint:-options" />
+      <module name="netty-testsuite-osgi" options="-Xlint:-options" />
+      <module name="netty-transport" options="-Xlint:-options" />
+      <module name="netty-transport-rxtx" options="-Xlint:-options" />
+      <module name="netty-transport-sctp" options="-Xlint:-options" />
+      <module name="netty-transport-udt" options="-Xlint:-options" />
+    </option>
+  </component>
+</project>

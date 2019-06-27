@@ -37,6 +37,7 @@ import java.util.ArrayList;
 
 /**
  * Echoes back any received data from a client.
+ * 服务端与客户端交互发数据
  */
 public final class EchoServer {
 

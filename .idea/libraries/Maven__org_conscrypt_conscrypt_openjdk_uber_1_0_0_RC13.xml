@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.conscrypt:conscrypt-openjdk-uber:1.0.0.RC13">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../software/apache-maven-3.6.0/repo/org/conscrypt/conscrypt-openjdk-uber/1.0.0.RC13/conscrypt-openjdk-uber-1.0.0.RC13.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../software/apache-maven-3.6.0/repo/org/conscrypt/conscrypt-openjdk-uber/1.0.0.RC13/conscrypt-openjdk-uber-1.0.0.RC13-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../software/apache-maven-3.6.0/repo/org/conscrypt/conscrypt-openjdk-uber/1.0.0.RC13/conscrypt-openjdk-uber-1.0.0.RC13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
