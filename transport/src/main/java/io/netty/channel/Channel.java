@@ -76,6 +76,10 @@ import java.net.SocketAddress;
  * It is important to call {@link #close()} or {@link #close(ChannelPromise)} to release all
  * resources once you are done with the {@link Channel}. This ensures all resources are
  * released in a proper way, i.e. filehandles.
+ * 基于Java的网络编程中, 其基本的构造是Socket, 提供的API大大降低直接使用Socket类的复杂性
+ *
+ * 将Channel注册到EventLoop上, 整个生命周期内都使用EventLoop处理I/O事件
+ * 一个Channel在它的生命周期内只注册于一个EventLoop; 多个Channel注册到一个EventLoop
  */
 public interface Channel extends AttributeMap, Comparable<Channel> {
 

@@ -176,6 +176,14 @@ import java.lang.annotation.Target;
  *
  * 各种处理程序的基本抽象
  * 每个处理器实例就是一个回调，用于执行对各种事件的响应。
+ *
+ * ChannelHandler添加到ChannelPipeline上时,
+ * 会被分配一个ChannelHandlerContext(代表ChannelHandler和ChannelPipline之间绑定)
+ *
+ * Netty中两种发送消息方式:
+ * 1. 直接写入Channel中, 这种将会导致消息从ChannelPipeline尾端开始流动
+ * 2. 将消息写到和ChannelHandler关联的ChannleHandlerContext对象中,
+ *    这种将会导致消息从ChannelPipeline中下一个ChannelHandler开始流动
  */
 public interface ChannelHandler {
 

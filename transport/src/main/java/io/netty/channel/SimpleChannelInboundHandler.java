@@ -44,6 +44,8 @@ import io.netty.util.internal.TypeParameterMatcher;
  * Please keep in mind that {@link #channelRead0(ChannelHandlerContext, I)} will be renamed to
  * {@code messageReceived(ChannelHandlerContext, I)} in 5.0.
  * </p>
+ *
+ * 接收解码消息,只需要扩展此类
  */
 public abstract class SimpleChannelInboundHandler<I> extends ChannelInboundHandlerAdapter {
 

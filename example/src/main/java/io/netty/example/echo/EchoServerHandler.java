@@ -24,7 +24,7 @@ import java.util.Date;
 
 /**
  * Handler implementation for the echo server.
- *
+ * ChannelHandler处理入/出站数据的应用程序逻辑的容器, 格式转换, 异常处理
  */
 @Sharable
 public class EchoServerHandler extends ChannelInboundHandlerAdapter {

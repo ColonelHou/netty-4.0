@@ -63,6 +63,15 @@ public final class EchoServer {
              .option(ChannelOption.SO_BACKLOG, 100)
              .handler(new LoggingHandler(LogLevel.INFO))
              .childHandler(new ChannelInitializer<SocketChannel>() {
+
+                 /**
+                  * 1. ChannelInitializer实现被注册到ServerBootstrap
+                  * 2. initChannel被调用时, 将在ChannelPipline中安装一组自定义的ChannelHandler
+                  * 3. ChannelInitializer将它自己从ChannelPipline中移除
+                  * (链中ChannelHandler执行顺序就是添加顺序)
+                  * @param ch            the {@link Channel} which was registered.
+                  * @throws Exception
+                  */
                  @Override
                  public void initChannel(SocketChannel ch) throws Exception {
                      ChannelPipeline p = ch.pipeline();
