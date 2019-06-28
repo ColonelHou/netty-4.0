@@ -31,6 +31,8 @@ import io.netty.util.concurrent.GenericFutureListener;
  * in the handler method can cause an unexpected pause during I/O.  If you need
  * to perform a blocking operation on I/O completion, try to execute the
  * operation in a different thread using a thread pool.
+ *
+ * ChannelFutureListener 提供的通知机制不需要手动检查操作是否完成的。
  */
 public interface ChannelFutureListener extends GenericFutureListener<ChannelFuture> {
 

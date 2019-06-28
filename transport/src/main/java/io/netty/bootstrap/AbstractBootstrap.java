@@ -48,6 +48,7 @@ import java.util.Map;
  */
 public abstract class AbstractBootstrap<B extends AbstractBootstrap<B, C>, C extends Channel> implements Cloneable {
 
+    // bossGroup = new NioEventLoopGroup(1);
     volatile EventLoopGroup group;
     private volatile ChannelFactory<? extends C> channelFactory;
     private volatile SocketAddress localAddress;

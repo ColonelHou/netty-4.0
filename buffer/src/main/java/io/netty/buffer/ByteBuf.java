@@ -233,10 +233,15 @@ import java.nio.charset.UnsupportedCharsetException;
  *
  * ByteBuf主要有三种类型，heap、direct和composite类型
  *    1、Pooled和Unpooled
+ *      a. Pooled:   是在已经申请好的内存块取一块内存
+ *      b. Unpooled: 直接通过JDK底层代码申请
  *
  *    2、Unsafe和非Unsafe
+ *      a. Unsafe: Unsafe是JDK底层的对象，通过它能够直接操作到内存
  *
  *    3、Heap和Direct
+ *      a. Heap堆上分配
+ *      b. 直接内存, 不受GC的控制
  */
 @SuppressWarnings("ClassMayBeInterface")
 public abstract class ByteBuf implements ReferenceCounted, Comparable<ByteBuf> {

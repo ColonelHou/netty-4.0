@@ -15,9 +15,7 @@
  */
 package io.netty.example.echo;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.Unpooled;
-import io.netty.buffer.UnpooledByteBufAllocator;
+import io.netty.buffer.*;
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
@@ -26,6 +24,7 @@ import java.util.Date;
 
 /**
  * Handler implementation for the echo server.
+ *
  */
 @Sharable
 public class EchoServerHandler extends ChannelInboundHandlerAdapter {
@@ -36,6 +35,8 @@ public class EchoServerHandler extends ChannelInboundHandlerAdapter {
         ByteBuf byteBuf = Unpooled.buffer(bf.readableBytes());
         ByteBuf directBuf = Unpooled.directBuffer(bf.readableBytes());
         ByteBuf wrapperBuf = Unpooled.wrappedBuffer("".getBytes());
+//        PooledByteBufAllocator
+        Unpooled.unreleasableBuffer(bf);
         bf.readBytes(byteBuf);
 
         try {

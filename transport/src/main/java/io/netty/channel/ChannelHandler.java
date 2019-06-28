@@ -173,6 +173,9 @@ import java.lang.annotation.Target;
  * {@link ChannelPipeline} to find out more about inbound and outbound operations,
  * what fundamental differences they have, how they flow in a  pipeline,  and how to handle
  * the operation in your application.
+ *
+ * 各种处理程序的基本抽象
+ * 每个处理器实例就是一个回调，用于执行对各种事件的响应。
  */
 public interface ChannelHandler {
 
