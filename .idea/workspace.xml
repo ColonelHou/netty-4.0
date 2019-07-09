@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6446265-970b-4453-b07f-ce27f3ee7d28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/io/netty/util/ReferenceCountUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/io/netty/util/ReferenceCountUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/io/netty/util/concurrent/SingleThreadEventExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/io/netty/util/concurrent/SingleThreadEventExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/io/netty/util/ReferenceCountUtil$ReleasingTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/io/netty/util/ReferenceCountUtil$ReleasingTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/io/netty/util/ReferenceCountUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/io/netty/util/ReferenceCountUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/io/netty/util/concurrent/SingleThreadEventExecutor$DefaultThreadProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/io/netty/util/concurrent/SingleThreadEventExecutor$DefaultThreadProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/io/netty/util/concurrent/SingleThreadEventExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/io/netty/util/concurrent/SingleThreadEventExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/netty-example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/example/netty-example.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/echo/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/io/netty/example/echo/EchoServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServerInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/echo/EchoServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/example/target/classes/io/netty/example/echo/EchoServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/echo/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/example/target/classes/io/netty/example/echo/EchoServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/src/main/java/io/netty/channel/Channel.java" beforeDir="false" afterPath="$PROJECT_DIR$/transport/src/main/java/io/netty/channel/Channel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/src/main/java/io/netty/channel/SimpleChannelInboundHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/transport/src/main/java/io/netty/channel/SimpleChannelInboundHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/target/classes/io/netty/channel/SimpleChannelInboundHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/transport/target/classes/io/netty/channel/SimpleChannelInboundHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerInitializer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/dev-tools/target/" />
@@ -70,50 +54,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServerInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-              <folding>
-                <element signature="e#1092#1093#0" expanded="true" />
-                <element signature="e#1128#1129#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codec-http/src/main/java/io/netty/handler/codec/http/HttpServerCodec.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-              <folding>
-                <element signature="e#1552#1553#0" expanded="true" />
-                <element signature="e#1590#1591#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/http/upload/HttpUploadServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
@@ -134,8 +74,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+            <state relative-caret-position="362">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,10 +96,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="320">
+              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -229,8 +217,12 @@
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServer.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServerHandler.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServerInitializer.java" />
-        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerHandler.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerInitializer.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClient.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientInitializer.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientHandler.java" />
       </list>
     </option>
   </component>
@@ -372,7 +364,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562674996700" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562676559877" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -393,33 +385,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HttpUploadServer">
-    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.netty.example.echo.EchoServer" />
-      <module name="netty-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.netty.example.echo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.netty.example.file.FileServer" />
-      <module name="netty-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.netty.example.file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyClient">
     <configuration name="HttpHelloWorldServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.netty.example.http.helloworld.HttpHelloWorldServer" />
       <module name="netty-example" />
@@ -446,6 +412,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.netty.example.socket.MyClient" />
+      <module name="netty-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.netty.example.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.netty.example.socket.MyServer" />
+      <module name="netty-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.netty.example.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="X" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.netty.example.echo.X" />
       <module name="netty-example" />
@@ -461,11 +453,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyClient" />
+        <item itemvalue="Application.MyServer" />
         <item itemvalue="Application.HttpUploadServer" />
         <item itemvalue="Application.HttpHelloWorldServer" />
         <item itemvalue="Application.X" />
-        <item itemvalue="Application.FileServer" />
-        <item itemvalue="Application.EchoServer" />
       </list>
     </recent_temporary>
   </component>
@@ -492,15 +484,16 @@
       <workItem from="1562328114754" duration="1229000" />
       <workItem from="1562329648963" duration="1564000" />
       <workItem from="1562587867242" duration="284000" />
-      <workItem from="1562672183723" duration="2807000" />
+      <workItem from="1562672183723" duration="4052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42354000" />
+    <option name="totallyTimeSpent" value="43599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2923453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -556,40 +549,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/transport/src/main/java/io/netty/channel/ChannelFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="185" column="18" selection-start-line="185" selection-start-column="18" selection-end-line="185" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/echo/EchoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transport/src/main/java/io/netty/channel/nio/NioEventLoopGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-          <folding>
-            <element signature="e#1579#1580#0" expanded="true" />
-            <element signature="e#1602#1603#0" expanded="true" />
-            <element signature="e#1852#1853#0" expanded="true" />
-            <element signature="e#1888#1889#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/io/netty/util/concurrent/AbstractEventExecutorGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
@@ -1041,10 +1000,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+        <state relative-caret-position="362">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1053,8 +1032,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="320">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
