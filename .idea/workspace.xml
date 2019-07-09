@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6446265-970b-4453-b07f-ce27f3ee7d28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socket/MyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/example/target/classes/io/netty/example/socket/MyClientHandler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/dev-tools/target/" />
@@ -54,63 +55,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/http/upload/HttpUploadServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/http/upload/HttpUploadClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="293">
               <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -120,13 +67,77 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClient.java">
+        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatClientInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="92">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/transport/src/main/java/io/netty/channel/group/DefaultChannelGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="269" column="24" selection-start-line="269" selection-start-column="24" selection-end-line="269" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#9007#9008#0" expanded="true" />
+                <element signature="e#9075#9076#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/transport/src/main/java/io/netty/channel/group/ChannelGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="155" column="23" selection-start-line="155" selection-start-column="23" selection-end-line="155" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/transport/src/main/java/io/netty/channel/SimpleChannelInboundHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServerInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/transport/src/main/java/io/netty/channel/ChannelInboundHandlerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -134,33 +145,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="86">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/http/upload/HttpUploadServerInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
-              <folding>
-                <element signature="e#1197#1198#0" expanded="true" />
-                <element signature="e#1233#1234#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/http/upload/HttpUploadServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -219,10 +208,14 @@
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServerInitializer.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerHandler.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerInitializer.java" />
-        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClient.java" />
-        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientInitializer.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClient.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientHandler.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServer.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatClientInitializer.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServerInitializer.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServerHandler.java" />
       </list>
     </option>
   </component>
@@ -310,38 +303,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="echo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty-4.0" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty-4.0" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty-4.0" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -364,7 +326,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562676559877" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562678057981" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -372,6 +334,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -385,13 +352,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyClient">
-    <configuration name="HttpHelloWorldServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.netty.example.http.helloworld.HttpHelloWorldServer" />
+  <component name="RunManager" selected="Application.MyChatClient">
+    <configuration name="HttpUploadServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.netty.example.http.upload.HttpUploadServer" />
       <module name="netty-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.netty.example.http.helloworld.*" />
+          <option name="PATTERN" value="io.netty.example.http.upload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -399,12 +366,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpUploadServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.netty.example.http.upload.HttpUploadServer" />
+    <configuration name="MyChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.netty.example.chat.MyChatClient" />
       <module name="netty-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.netty.example.http.upload.*" />
+          <option name="PATTERN" value="io.netty.example.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.netty.example.chat.MyChatServer" />
+      <module name="netty-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.netty.example.chat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -438,26 +418,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="X" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.netty.example.echo.X" />
-      <module name="netty-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.netty.example.echo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyChatClient" />
+        <item itemvalue="Application.MyChatServer" />
         <item itemvalue="Application.MyClient" />
         <item itemvalue="Application.MyServer" />
         <item itemvalue="Application.HttpUploadServer" />
-        <item itemvalue="Application.HttpHelloWorldServer" />
-        <item itemvalue="Application.X" />
       </list>
     </recent_temporary>
   </component>
@@ -484,12 +451,12 @@
       <workItem from="1562328114754" duration="1229000" />
       <workItem from="1562329648963" duration="1564000" />
       <workItem from="1562587867242" duration="284000" />
-      <workItem from="1562672183723" duration="4052000" />
+      <workItem from="1562672183723" duration="5592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43599000" />
+    <option name="totallyTimeSpent" value="45139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -504,7 +471,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32630098" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27707455" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36708862" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5246132" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -549,69 +516,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/netty/util/concurrent/AbstractEventExecutorGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
-          <folding>
-            <element signature="e#2247#2248#0" expanded="true" />
-            <element signature="e#2313#2314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/netty/util/concurrent/EventExecutorGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/netty/util/concurrent/MultithreadEventExecutorGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2668">
-          <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
-          <folding>
-            <element signature="e#4262#4263#0" expanded="true" />
-            <element signature="e#4299#4300#0" expanded="true" />
-            <element signature="e#5629#5630#0" expanded="true" />
-            <element signature="e#5669#5670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicIntegerFieldUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/netty/util/concurrent/EventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/netty/util/concurrent/SingleThreadEventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="218" column="29" lean-forward="true" selection-start-line="218" selection-start-column="29" selection-end-line="218" selection-end-column="29" />
-          <folding>
-            <element signature="e#2369#2474#0" expanded="true" />
-            <element signature="e#2473#2474#0" expanded="true" />
-            <element signature="e#8107#8108#0" expanded="true" />
-            <element signature="e#8159#8160#0" expanded="true" />
-            <element signature="e#8166#8598#0" />
-            <element signature="e#8792#8793#0" expanded="true" />
-            <element signature="e#8821#8822#0" expanded="true" />
-            <element signature="e#17417#17418#0" expanded="true" />
-            <element signature="e#17461#17462#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/file/FileServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -679,13 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transport/src/main/java/io/netty/channel/SimpleChannelInboundHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="129" column="27" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -918,13 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/transport/src/main/java/io/netty/channel/ChannelInboundHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="31" column="90" selection-start-line="31" selection-start-column="90" selection-end-line="31" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codec-http/src/main/java/io/netty/handler/codec/http/HttpHeaders.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -947,13 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1000,50 +883,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClient.java">
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="181">
+          <caret line="66" column="39" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="297">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1052,11 +902,111 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="320">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transport/src/main/java/io/netty/channel/ChannelInboundHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transport/src/main/java/io/netty/channel/SimpleChannelInboundHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transport/src/main/java/io/netty/channel/group/ChannelGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="155" column="23" selection-start-line="155" selection-start-column="23" selection-end-line="155" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transport/src/main/java/io/netty/channel/group/DefaultChannelGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="269" column="24" selection-start-line="269" selection-start-column="24" selection-end-line="269" selection-end-column="24" />
+          <folding>
+            <element signature="e#9007#9008#0" expanded="true" />
+            <element signature="e#9075#9076#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
