@@ -109,7 +109,7 @@ public interface Channel extends AttributeMap, Comparable<Channel> {
     /**
      * Returns {@code true} if the {@link Channel} is registered with an {@link EventLoop}.
      */
-    boolean isRegistered();
+boolean isRegistered();
 
     /**
      * Return {@code true} if the {@link Channel} is active and so connected.

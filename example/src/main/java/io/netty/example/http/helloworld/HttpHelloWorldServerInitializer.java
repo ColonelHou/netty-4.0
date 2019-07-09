@@ -35,6 +35,7 @@ public class HttpHelloWorldServerInitializer extends ChannelInitializer<SocketCh
         if (sslCtx != null) {
             p.addLast(sslCtx.newHandler(ch.alloc()));
         }
+        // http请求响应编解码; netty未提供http请求路由, 比如spring中requestmapping
         p.addLast(new HttpServerCodec());
         p.addLast(new HttpHelloWorldServerHandler());
     }

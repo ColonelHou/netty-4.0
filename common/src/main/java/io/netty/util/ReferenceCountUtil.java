@@ -53,6 +53,7 @@ public final class ReferenceCountUtil {
     /**
      * Try to call {@link ReferenceCounted#release()} if the specified message implements {@link ReferenceCounted}.
      * If the specified message doesn't implement {@link ReferenceCounted}, this method does nothing.
+     * 丢弃已接收的消息
      */
     public static boolean release(Object msg) {
         if (msg instanceof ReferenceCounted) {

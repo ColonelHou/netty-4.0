@@ -27,6 +27,7 @@ import io.netty.handler.ssl.SslContextBuilder;
 import io.netty.handler.ssl.util.SelfSignedCertificate;
 import io.netty.util.internal.logging.InternalLogger;
 import io.netty.util.internal.logging.InternalLoggerFactory;
+import sun.misc.SignalHandler;
 
 import java.util.ArrayList;
 
@@ -83,15 +84,26 @@ public final class EchoServer {
                  }
              });
 
-            // Start the server.
+            // Start the server. 用同步的方式绑定服务器监听端口
             ChannelFuture f = b.bind(PORT).sync();
 
             // Wait until the server socket is closed.
-            f.channel().closeFuture().sync();
+            // 通过jstack看到main线程被阻塞到closeFuture(), 等待channel关闭
+//            f.channel().closeFuture().sync();
+            System.out.println("abc");
+            f.channel().closeFuture().addListener(new ChannelFutureListener() {
+                @Override
+                public void operationComplete(ChannelFuture future) throws Exception {
+                    System.out.println("链路关闭");
+                    // 链路关闭时再释放线程池和连接句柄
+                    bossGroup.shutdownGracefully();
+                    workerGroup.shutdownGracefully();
+                }
+            });
         } finally {
             // Shut down all event loops to terminate all threads.
-            bossGroup.shutdownGracefully();
-            workerGroup.shutdownGracefully();
+//            bossGroup.shutdownGracefully();
+//            workerGroup.shutdownGracefully();
         }
     }
 }

@@ -45,7 +45,8 @@ import io.netty.util.internal.TypeParameterMatcher;
  * {@code messageReceived(ChannelHandlerContext, I)} in 5.0.
  * </p>
  *
- * 接收解码消息,只需要扩展此类
+ * 接收解码消息,只需要扩展此类;
+ * 这个类会自动释放资源
  */
 public abstract class SimpleChannelInboundHandler<I> extends ChannelInboundHandlerAdapter {
 
@@ -126,6 +127,7 @@ public abstract class SimpleChannelInboundHandler<I> extends ChannelInboundHandl
      *                      belongs to
      * @param msg           the message to handle
      * @throws Exception    is thrown if an error occurred
+     * 实现这个方法的时候不需要任何显式的资源释放
      */
     protected abstract void channelRead0(ChannelHandlerContext ctx, I msg) throws Exception;
 }

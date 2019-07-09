@@ -24,6 +24,9 @@ import io.netty.handler.codec.http.FullHttpResponse;
 import io.netty.handler.codec.http.HttpHeaders;
 import io.netty.handler.codec.http.HttpRequest;
 
+import java.net.URI;
+import java.net.URISyntaxException;
+
 import static io.netty.handler.codec.http.HttpHeaders.Names.*;
 import static io.netty.handler.codec.http.HttpHeaders.Values;
 import static io.netty.handler.codec.http.HttpResponseStatus.*;
@@ -38,13 +41,22 @@ public class HttpHelloWorldServerHandler extends ChannelInboundHandlerAdapter {
     }
 
     @Override
-    public void channelRead(ChannelHandlerContext ctx, Object msg) {
+    public void channelRead(ChannelHandlerContext ctx, Object msg) throws URISyntaxException {
         if (msg instanceof HttpRequest) {
             HttpRequest req = (HttpRequest) msg;
+            System.out.println(req.getMethod().name());
+            URI uri = new URI(req.getUri());
+            System.out.println(uri.getPath());
+            if ("/favicon.ico".equalsIgnoreCase(uri.getPath())) {
+                System.out.println("favicon.ico不需要处理");
+                return;
+            }
 
             if (HttpHeaders.is100ContinueExpected(req)) {
                 ctx.write(new DefaultFullHttpResponse(HTTP_1_1, CONTINUE));
             }
+            // 1. curl是一次请求; 2. 浏览器是两次请求 favicon.ico;(请求网页tab页的图标)
+            System.out.println("请求到来");
             boolean keepAlive = HttpHeaders.isKeepAlive(req);
             FullHttpResponse response = new DefaultFullHttpResponse(HTTP_1_1, OK, Unpooled.wrappedBuffer(CONTENT));
             response.headers().set(CONTENT_TYPE, "text/plain");
@@ -56,7 +68,45 @@ public class HttpHelloWorldServerHandler extends ChannelInboundHandlerAdapter {
                 response.headers().set(CONNECTION, Values.KEEP_ALIVE);
                 ctx.write(response);
             }
+            // close之后浏览器两次请求都会inActive
+            ctx.channel().close();
         }
+    }
+
+    @Override
+    public void channelActive(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("========================channelActive");
+        super.channelActive(ctx);
+    }
+
+    @Override
+    public void channelRegistered(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("========================channelRegistered");
+        super.channelRegistered(ctx);
+    }
+
+    @Override
+    public void channelInactive(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("========================channelInactive");
+        super.channelInactive(ctx);
+    }
+
+    @Override
+    public void channelUnregistered(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("========================channelUnregistered");
+        super.channelUnregistered(ctx);
+    }
+
+    @Override
+    public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("=========================handlerAdded");
+        super.handlerAdded(ctx);
+    }
+
+    @Override
+    public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("=========================handlerRemoved");
+        super.handlerRemoved(ctx);
     }
 
     @Override
