@@ -20,12 +20,12 @@ public class MyChatServerHandler extends SimpleChannelInboundHandler<String> {
         Channel channel = ctx.channel();
         channelGroup.forEach(ch -> {
             if (channel != ch) {
-                ctx.writeAndFlush(channel.remoteAddress() + " 发送的消息 " + msg);
+                ch.writeAndFlush(channel.remoteAddress() + " 发送的消息 " + msg + "\n");
             } else {
-                ctx.writeAndFlush("自己 " + msg);
+                ch.writeAndFlush("自己 " + msg + "\n");
             }
         });
-        ctx.channel().writeAndFlush("from server " + UUID.randomUUID());
+//        ctx.channel().writeAndFlush("from server " + UUID.randomUUID());
     }
 
     /**
@@ -38,7 +38,7 @@ public class MyChatServerHandler extends SimpleChannelInboundHandler<String> {
     public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
         Channel channel = ctx.channel();
         // 先广播, 再加入
-        channelGroup.writeAndFlush("服务器 - " + channel.remoteAddress() + " 加入");
+        channelGroup.writeAndFlush("服务器 - " + channel.remoteAddress() + " 加入\n");
         channelGroup.add(channel);
     }
 
@@ -50,7 +50,8 @@ public class MyChatServerHandler extends SimpleChannelInboundHandler<String> {
     @Override
     public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
         Channel channel = ctx.channel();
-        channelGroup.writeAndFlush("服务器 - " + channel.remoteAddress() + "断线");
+        channelGroup.writeAndFlush("服务器 - " + channel.remoteAddress() + "断线\n");
+        System.out.println("在线客户端数量剩: " + channelGroup.size());
     }
 
     /**
