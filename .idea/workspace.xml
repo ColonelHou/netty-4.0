@@ -3,244 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a6446265-970b-4453-b07f-ce27f3ee7d28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatClientInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatClientInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/META-INF/netty-example.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/META-INF/services/nio.some.demo.spi.IShout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/cors/cors.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/cors/css/cors.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/chat/MyChatClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/chat/MyChatClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/chat/MyChatClientInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/chat/MyChatServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/chat/MyChatServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/chat/MyChatServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/discard/DiscardClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/discard/DiscardClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/discard/DiscardClientHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/discard/DiscardClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/discard/DiscardServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/discard/DiscardServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/discard/DiscardServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/echo/EchoClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/echo/EchoClient$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/echo/EchoClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/echo/EchoClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/echo/EchoServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/echo/EchoServer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/echo/EchoServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/echo/EchoServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/echo/TestHttpServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/factorial/BigIntegerDecoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/factorial/FactorialClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/factorial/FactorialClientHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/factorial/FactorialClientHandler$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/factorial/FactorialClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/factorial/FactorialClientInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/factorial/FactorialServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/factorial/FactorialServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/factorial/FactorialServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/factorial/NumberEncoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/file/FileServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/file/FileServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/file/FileServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/cors/HttpCorsServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/cors/HttpCorsServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/cors/OkResponseHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/file/HttpStaticFileServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/file/HttpStaticFileServerHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/file/HttpStaticFileServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/file/HttpStaticFileServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/helloworld/HttpHelloWorldServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/helloworld/HttpHelloWorldServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/helloworld/HttpHelloWorldServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/snoop/HttpSnoopClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/snoop/HttpSnoopClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/snoop/HttpSnoopClientInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/snoop/HttpSnoopServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/snoop/HttpSnoopServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/snoop/HttpSnoopServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/upload/HttpUploadClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/upload/HttpUploadClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/upload/HttpUploadClientInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/upload/HttpUploadServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/upload/HttpUploadServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/upload/HttpUploadServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/websocketx/benchmarkserver/WebSocketServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/websocketx/benchmarkserver/WebSocketServerBenchmarkPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/websocketx/benchmarkserver/WebSocketServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/websocketx/benchmarkserver/WebSocketServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/websocketx/client/WebSocketClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/websocketx/client/WebSocketClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/websocketx/client/WebSocketClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/websocketx/server/WebSocketFrameHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/websocketx/server/WebSocketIndexPageHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/websocketx/server/WebSocketServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/websocketx/server/WebSocketServerIndexPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/http/websocketx/server/WebSocketServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/localecho/LocalEcho$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/localecho/LocalEcho$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/localecho/LocalEcho$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/localecho/LocalEcho.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/localecho/LocalEchoClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/localecho/LocalEchoServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/objectecho/ObjectEchoClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/objectecho/ObjectEchoClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/objectecho/ObjectEchoClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/objectecho/ObjectEchoServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/objectecho/ObjectEchoServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/objectecho/ObjectEchoServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/ocsp/Digester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/ocsp/OcspClientExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/ocsp/OcspClientExample$ExampleOcspClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/ocsp/OcspClientExample$HttpClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/ocsp/OcspClientExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/ocsp/OcspRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/ocsp/OcspServerExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/ocsp/OcspServerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/ocsp/OcspUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/ocsp/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/ocsp/netty_io_chain.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/portunification/PortUnificationServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/portunification/PortUnificationServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/portunification/PortUnificationServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/proxy/HexDumpProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/proxy/HexDumpProxyBackendHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/proxy/HexDumpProxyBackendHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/proxy/HexDumpProxyFrontendHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/proxy/HexDumpProxyFrontendHandler$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/proxy/HexDumpProxyFrontendHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/proxy/HexDumpProxyInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/qotm/QuoteOfTheMomentClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/qotm/QuoteOfTheMomentClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/qotm/QuoteOfTheMomentServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/qotm/QuoteOfTheMomentServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/rxtx/RxtxClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/rxtx/RxtxClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/rxtx/RxtxClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/sctp/SctpEchoClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/sctp/SctpEchoClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/sctp/SctpEchoClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/sctp/SctpEchoServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/sctp/SctpEchoServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/sctp/SctpEchoServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/sctp/multihoming/SctpMultiHomingEchoClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/sctp/multihoming/SctpMultiHomingEchoClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/sctp/multihoming/SctpMultiHomingEchoServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/sctp/multihoming/SctpMultiHomingEchoServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/securechat/SecureChatClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/securechat/SecureChatClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/securechat/SecureChatClientInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/securechat/SecureChatServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/securechat/SecureChatServerHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/securechat/SecureChatServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/securechat/SecureChatServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socket/MyClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socket/MyClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socket/MyClientInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socket/MyServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socket/MyServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socket/MyServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socksproxy/DirectClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socksproxy/RelayHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socksproxy/SocksServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socksproxy/SocksServerConnectHandler$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socksproxy/SocksServerConnectHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socksproxy/SocksServerConnectHandler$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socksproxy/SocksServerConnectHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socksproxy/SocksServerHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socksproxy/SocksServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socksproxy/SocksServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/socksproxy/SocksServerUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/spdy/client/HttpResponseClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/spdy/client/SpdyClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/spdy/client/SpdyClientInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/spdy/client/SpdyClientStreamIdHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/spdy/client/SpdyFrameLogger$Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/spdy/client/SpdyFrameLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/spdy/server/SpdyOrHttpHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/spdy/server/SpdyServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/spdy/server/SpdyServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/spdy/server/SpdyServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/telnet/TelnetClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/telnet/TelnetClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/telnet/TelnetClientInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/telnet/TelnetServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/telnet/TelnetServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/telnet/TelnetServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/bytes/ByteEchoClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/bytes/ByteEchoClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/bytes/ByteEchoClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/bytes/ByteEchoServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/bytes/ByteEchoServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/bytes/ByteEchoServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/message/MsgEchoClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/message/MsgEchoClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/message/MsgEchoClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/message/MsgEchoServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/message/MsgEchoServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/message/MsgEchoServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/rendezvous/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/rendezvous/MsgEchoPeerBase$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/rendezvous/MsgEchoPeerBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/rendezvous/MsgEchoPeerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/rendezvous/MsgEchoPeerOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/rendezvous/MsgEchoPeerTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/rendezvousBytes/ByteEchoPeerBase$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/rendezvousBytes/ByteEchoPeerBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/rendezvousBytes/ByteEchoPeerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/rendezvousBytes/ByteEchoPeerOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/udt/echo/rendezvousBytes/ByteEchoPeerTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/uptime/UptimeClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/uptime/UptimeClient$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/uptime/UptimeClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/uptime/UptimeClientHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/uptime/UptimeClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/uptime/UptimeServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/uptime/UptimeServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/uptime/UptimeServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockClientInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$Continent$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$Continent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$DayOfWeek$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$DayOfWeek.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$LocalTime$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$LocalTime$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$LocalTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$LocalTimeOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$LocalTimes$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$LocalTimes$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$LocalTimes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$LocalTimesOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$Location$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$Location$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$Location.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$LocationOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$Locations$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$Locations$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$Locations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol$LocationsOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockProtocol.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/worldclock/WorldClockServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/nio/X.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/nio/some/RandomAccess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/nio/some/demo/NIOServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/nio/some/demo/spi/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/nio/some/demo/spi/DifferentClassLoaderTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/nio/some/demo/spi/DifferentClassLoaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/nio/some/demo/spi/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/nio/some/demo/spi/IShout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/nio/some/demo/spi/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/nio/some/demo/v2/NIOServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/nio/some/demo/v2/Processor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/X.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/dev-tools/target/" />
@@ -302,8 +67,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="44">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="e#95#96#0" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -311,44 +89,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServerInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="184">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientHandler.java">
+        <entry file="file://$PROJECT_DIR$/codec/src/main/java/io/netty/handler/codec/DelimiterBasedFrameDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="295">
+              <caret line="174" column="42" selection-start-line="174" selection-start-column="42" selection-end-line="174" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientInitializer.java">
+        <entry file="file://$PROJECT_DIR$/codec/src/main/java/io/netty/handler/codec/LineBasedFrameDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="494">
+              <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -365,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+            <state relative-caret-position="449">
+              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -450,13 +210,14 @@
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClient.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientHandler.java" />
-        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServer.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServerInitializer.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/X.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatClient.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatClientInitializer.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatClientHandler.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServerHandler.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServer.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/Test.java" />
       </list>
     </option>
   </component>
@@ -572,7 +333,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562758840168" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562759689221" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -598,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyChatClient">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="MyChatClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.netty.example.chat.MyChatClient" />
       <module name="netty-example" />
@@ -615,6 +376,7 @@
     <configuration name="MyChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.netty.example.chat.MyChatServer" />
       <module name="netty-example" />
+      <option name="VM_PARAMETERS" value="-XX:+TraceClassLoading" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.netty.example.chat.*" />
@@ -638,12 +400,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.netty.example.socket.MyServer" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.netty.example.chat.Test" />
       <module name="netty-example" />
+      <option name="VM_PARAMETERS" value="-XX:+TraceClassLoading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.netty.example.socket.*" />
+          <option name="PATTERN" value="io.netty.example.chat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -668,16 +431,16 @@
       <item itemvalue="Application.MyChatClient" />
       <item itemvalue="Application.MyChatServer" />
       <item itemvalue="Application.MyClient" />
-      <item itemvalue="Application.MyServer" />
       <item itemvalue="Application.X" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyChatClient" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.MyChatServer" />
+        <item itemvalue="Application.MyChatClient" />
         <item itemvalue="Application.X" />
         <item itemvalue="Application.MyClient" />
-        <item itemvalue="Application.MyServer" />
       </list>
     </recent_temporary>
   </component>
@@ -704,18 +467,18 @@
       <workItem from="1562328114754" duration="1229000" />
       <workItem from="1562329648963" duration="1564000" />
       <workItem from="1562587867242" duration="284000" />
-      <workItem from="1562672183723" duration="9472000" />
+      <workItem from="1562672183723" duration="10216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49019000" />
+    <option name="totallyTimeSpent" value="49763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2923453" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2923453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -724,7 +487,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32630098" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.419128" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45428973" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5583685" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -796,27 +559,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/transport/src/main/java/io/netty/channel/ChannelOutboundBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transport/src/main/java/io/netty/channel/ChannelPromise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transport/src/main/java/io/netty/channel/DefaultChannelPromise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/io.netty.channel.ChannelInboundHandlerAdapter">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1152,17 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/X.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#128#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -1244,13 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -1272,17 +996,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/codec/src/main/java/io/netty/handler/codec/DelimiterBasedFrameDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="174" column="42" selection-start-line="174" selection-start-column="42" selection-end-line="174" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/X.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codec/src/main/java/io/netty/handler/codec/LineBasedFrameDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="184">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+        <state relative-caret-position="449">
+          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/MyChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/chat/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

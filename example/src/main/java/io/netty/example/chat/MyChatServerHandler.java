@@ -44,6 +44,7 @@ public class MyChatServerHandler extends SimpleChannelInboundHandler<String> {
 
     /**
      * 客户端断开连接
+     * 如果客户端进入飞行模式, 这块不会被调用
      * @param ctx
      * @throws Exception
      */
