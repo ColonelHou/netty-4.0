@@ -1,6 +1,8 @@
 
-# thrift --gen java data.thrift 生成java
+# $ thrift --gen java data.thrift 生成java
+# $ thrift --gen py data.thrift # 下载官方依赖源码安装 sudo python setup.py install
 namespace java io.netty.example.thrift.interfaces.thrift.generated
+namespace py io.netty.example.thrift.interfaces.thrift.generated
 
 typedef i16 short
 typedef i32 int

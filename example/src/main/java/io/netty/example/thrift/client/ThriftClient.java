@@ -11,6 +11,7 @@ import org.apache.thrift.transport.TTransport;
 public class ThriftClient {
     public static void main(String[] args) {
         TTransport tTransport = new TFramedTransport(new TSocket("localhost", 9999), 600);
+        // Thrift传输格式: 约定用什么协议传输; 压缩格式; 还有二进制格式; JSON格式; TDebug可读懂的文件, 以便debug
         TProtocol protocol = new TCompactProtocol(tTransport);
         PersonService.Client client = new PersonService.Client(protocol);
 
