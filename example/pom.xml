@@ -126,8 +126,15 @@
       <artifactId>protobuf-java-util</artifactId>
       <version>3.8.0</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.thrift/libthrift -->
+    <dependency>
+      <groupId>org.apache.thrift</groupId>
+      <artifactId>libthrift</artifactId>
+      <version>0.12.0</version>
+    </dependency>
   </dependencies>
   <!-- https://mvnrepository.com/artifact/com.google.protobuf/protoc -->
+
 
   <build>
     <plugins>

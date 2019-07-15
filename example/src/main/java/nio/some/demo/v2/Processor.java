@@ -36,7 +36,7 @@ public class Processor {
         this.selector.wakeup();
     }
 
-    public void start() {
+    public void start() {}/*
         poolExecutor.submit(() -> {
             while (true) {
                 if (selector.select(500) < 0) {
@@ -61,5 +61,5 @@ public class Processor {
                 }
             }
         });
-    }
+    }*/
 }
