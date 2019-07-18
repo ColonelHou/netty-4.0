@@ -1,0 +1,4 @@
+package io.netty.buffer.generated;
+public class ByteBufNoCleanerChangeCapacityBenchmark_jmhType extends ByteBufNoCleanerChangeCapacityBenchmark_jmhType_B3 {
+}
+
