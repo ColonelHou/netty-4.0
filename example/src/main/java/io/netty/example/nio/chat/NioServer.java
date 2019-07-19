@@ -36,9 +36,9 @@ public class NioServer {
                     final SocketChannel client;
                     try {
                         if (selectionKey.isAcceptable()) {
-                            ServerSocketChannel serverSocketChannel1 = (ServerSocketChannel) selectionKey.channel();
-                            client = serverSocketChannel1.accept();
-                            serverSocketChannel1.configureBlocking(false);
+                            ServerSocketChannel server = (ServerSocketChannel) selectionKey.channel();
+                            client = server.accept();
+                            client.configureBlocking(false);
                             client.register(selector, SelectionKey.OP_READ);
                             String key = "[" + UUID.randomUUID() + "]";
                             map.put(key, client);
@@ -52,9 +52,25 @@ public class NioServer {
                                 String receivedMessage = String.valueOf(charset.decode(readBuffer).array());
 
                                 System.out.println(client + " : " + receivedMessage);
+                                String senderKey = null;
                                 System.out.println();
+                                for (Map.Entry<String , SocketChannel> entry: map.entrySet()) {
+                                    if (client == entry.getValue()) {
+                                        senderKey = entry.getKey();
+                                        break;
+                                    }
+                                }
+                                for (Map.Entry<String , SocketChannel> entry: map.entrySet()) {
+                                    SocketChannel channel = entry.getValue();
+                                    ByteBuffer writeBuffer = ByteBuffer.allocate(1024);
+                                    writeBuffer.put((senderKey + ", " + receivedMessage).getBytes());
+                                    writeBuffer.flip();
+                                    channel.write(writeBuffer);
+                                }
+
                             }
                         }
+                        selectionKeys.clear();
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
