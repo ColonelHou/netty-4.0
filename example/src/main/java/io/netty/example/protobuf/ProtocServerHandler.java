@@ -1,13 +1,8 @@
-package io.netty.example.pb;
+package io.netty.example.protobuf;
 
-import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-import io.netty.channel.group.ChannelGroup;
-import io.netty.channel.group.DefaultChannelGroup;
-import io.netty.example.pb.gen.DataInfo;
-import io.netty.example.pb.netty.MyDataInfo;
-import io.netty.util.concurrent.GlobalEventExecutor;
+import io.netty.example.protobuf.netty.MyDataInfo;
 
 // 泛型显示我client-server之间传输的是字符串
 //public class ProtocServerHandler extends SimpleChannelInboundHandler<MyDataInfo.Student> {

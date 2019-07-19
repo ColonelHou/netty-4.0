@@ -19,6 +19,7 @@ import io.netty.buffer.*;
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import io.netty.channel.SimpleChannelInboundHandler;
 
 import java.util.Date;
 
@@ -27,10 +28,11 @@ import java.util.Date;
  * ChannelHandler处理入/出站数据的应用程序逻辑的容器, 格式转换, 异常处理
  */
 @Sharable
-public class EchoServerHandler extends ChannelInboundHandlerAdapter {
+public class EchoServerHandler extends ChannelInboundHandlerAdapter { // SimpleChannelInboundHandler
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
+
         ByteBuf bf = (ByteBuf) msg;
         ByteBuf byteBuf = Unpooled.buffer(bf.readableBytes());
         ByteBuf directBuf = Unpooled.directBuffer(bf.readableBytes());

@@ -127,7 +127,7 @@ public abstract class SimpleChannelInboundHandler<I> extends ChannelInboundHandl
      *                      belongs to
      * @param msg           the message to handle
      * @throws Exception    is thrown if an error occurred
-     * 实现这个方法的时候不需要任何显式的资源释放
+     * 实现这个方法的时候不需要任何显式的资源释放 因为在channelRead的finally中进行释放
      */
     protected abstract void channelRead0(ChannelHandlerContext ctx, I msg) throws Exception;
 }

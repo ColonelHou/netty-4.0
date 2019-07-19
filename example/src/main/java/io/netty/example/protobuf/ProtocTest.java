@@ -1,7 +1,7 @@
-package io.netty.example.pb;
+package io.netty.example.protobuf;
 
 import com.google.protobuf.InvalidProtocolBufferException;
-import io.netty.example.pb.gen.DataInfo;
+import io.netty.example.protobuf.gen.DataInfo;
 
 public class ProtocTest {
     public static void main(String[] args) throws InvalidProtocolBufferException {

@@ -1,9 +1,8 @@
-package io.netty.example.pb;
+package io.netty.example.protobuf;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-import io.netty.example.pb.gen.DataInfo;
-import io.netty.example.pb.netty.MyDataInfo;
+import io.netty.example.protobuf.netty.MyDataInfo;
 
 import java.util.Random;
 

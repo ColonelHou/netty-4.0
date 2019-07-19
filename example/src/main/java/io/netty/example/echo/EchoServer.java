@@ -58,12 +58,13 @@ public final class EchoServer {
         //线程池: work线程池负责请求的read和write事件; 由对应的Handler处理
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {
+            // 方法链的调用
             ServerBootstrap b = new ServerBootstrap();
             b.group(bossGroup, workerGroup)
-             .channel(NioServerSocketChannel.class)
+             .channel(NioServerSocketChannel.class) // 通道
              .option(ChannelOption.SO_BACKLOG, 100)
-             .handler(new LoggingHandler(LogLevel.INFO))
-             .childHandler(new ChannelInitializer<SocketChannel>() {
+             .handler(new LoggingHandler(LogLevel.INFO))   // 针对boss
+             .childHandler(new ChannelInitializer<SocketChannel>() { // 针对worker
 
                  /**
                   * 1. ChannelInitializer实现被注册到ServerBootstrap
