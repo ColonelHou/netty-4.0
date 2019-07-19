@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6446265-970b-4453-b07f-ce27f3ee7d28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/io/netty/util/internal/ThreadLocalRandom$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/io/netty/util/internal/ThreadLocalRandom$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/io/netty/example/nio/NioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/src/main/java/io/netty/example/nio/NioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/META-INF/netty-example.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/io/netty/example/nio/NioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/example/target/classes/io/netty/example/nio/NioTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler/target/test-classes/io/netty/handler/ipfilter/IpSubnetFilterTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/handler/target/test-classes/io/netty/handler/ipfilter/IpSubnetFilterTest$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler/target/test-classes/io/netty/handler/ssl/SslHandlerTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/handler/target/test-classes/io/netty/handler/ssl/SslHandlerTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/target/test-classes/io/netty/channel/local/LocalChannelTest$6$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/transport/target/test-classes/io/netty/channel/local/LocalChannelTest$6$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transport/target/test-classes/io/netty/channel/local/LocalChannelTest$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/transport/target/test-classes/io/netty/channel/local/LocalChannelTest$6.class" afterDir="false" />
-    </list>
+    <list default="true" id="a6446265-970b-4453-b07f-ce27f3ee7d28" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/dev-tools/target/" />
     <ignored path="$PROJECT_DIR$/transport-udt/target/" />
@@ -128,11 +117,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/nio/SelectorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+            <state relative-caret-position="425">
+              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/nio/chat/NioServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="53" column="82" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerHandler.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServerInitializer.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyClientInitializer.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/socket/MyServer.java" />
@@ -236,6 +236,7 @@
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/nio/MemMappFile.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/nio/BufferScattGather.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/nio/SelectorTest.java" />
+        <option value="$PROJECT_DIR$/example/src/main/java/io/netty/example/nio/chat/NioServer.java" />
       </list>
     </option>
   </component>
@@ -337,6 +338,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-4.0" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="telnet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -352,7 +364,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563458238027" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563459057286" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -499,12 +511,12 @@
       <workItem from="1563276376379" duration="1908000" />
       <workItem from="1563281822488" duration="2396000" />
       <workItem from="1563354114545" duration="9388000" />
-      <workItem from="1563448299418" duration="9132000" />
+      <workItem from="1563448299418" duration="10207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90096000" />
+    <option name="totallyTimeSpent" value="91171000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,7 +531,7 @@
     <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.16220556" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.16220556" />
       <window_info id="Structure" order="1" sideWeight="0.5010571" side_tool="true" weight="0.31433225" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -528,7 +540,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32630098" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946466" visible="true" weight="0.308779" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946466" weight="0.308779" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5583685" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -536,7 +548,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946466" weight="0.35620585" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946466" visible="true" weight="0.35620585" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005353" side_tool="true" weight="0.35620585" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.35721493" />
       <window_info anchor="bottom" id="Gradle View" order="13" />
@@ -600,16 +612,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/pb/ProtocTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/pb/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -967,8 +969,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/nio/SelectorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+        <state relative-caret-position="425">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/java/io/netty/example/nio/chat/NioServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="53" column="82" selection-start-line="53" selection-start-column="82" selection-end-line="53" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
